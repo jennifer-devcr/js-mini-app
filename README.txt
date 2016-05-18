@@ -1,6 +1,6 @@
 == Exercise #4 ==
 Developer: Jennifer Quesada
-Email: jenny240p@gmail.com
+Email: 
 
 
 Approach:
