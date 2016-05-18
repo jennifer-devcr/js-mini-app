@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Exercise: User List</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">	
+	</head>
+	
+	<body>
+		<header>
+			<h1>User List</h1>
+		</header>
+		
+		<main>
+			<div class="insert-fields">
+				<input type="text" id="txt-new-user">
+				<button type="button" id="btn-add-user" class="btn">Add</button>
+			</div>
+			
+			<div id="user-list"></div>
+			
+			<p class="info">Total Users: <span id="total-users"></span></p>
+
+			<button type="button" id="btn-reset-list" class="btn">Reset</button>
+		</main>
+		
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript"> app.appInit(listView.loadView); </script>
+	</body>
+</html>

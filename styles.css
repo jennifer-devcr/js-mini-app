@@ -1,0 +1,132 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 0.86rem;
+    color: #414645;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+header {
+    text-align: center;
+    margin: 15px 5% 30px 5%;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #1d2120;
+    border-bottom: 1px solid #963019;
+    display: inline;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 5px 5% 15px 5%;
+    background-color: #E6E6E6;
+    padding: 20px;
+    display: block;
+}
+
+.btn {
+    border: none;
+    box-shadow: none;
+    background-color: #963019;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 0.86rem;
+    padding: 5px 15px;
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+input[type=text] {
+    border: none;
+    box-shadow: none;
+    padding: 5px;
+    color: #414645;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 0.86rem;
+    width: 70%;
+}
+
+#user-list, #user-posts {
+    border: 2px solid #963019;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#user-list .item, #user-posts .post {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#user-list p {
+    margin: 0px;
+}
+
+#user-list .btn {
+    margin: 5px 10px 0px 0px;
+}
+
+.info {
+    color: #963019;
+}
+
+#total-users {
+    color: #1d2120;
+}
+
+.info, #total-users {
+    font-weight: bold;
+}
+
+#user-name {
+    color: #1d2120;
+    font-size: 0.88rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+#user-posts .post p {
+    margin: 0px;
+    display: inline;
+    word-break: break-all;
+}
+
+#user-posts .post .id {
+    margin-right: 5px;
+    color: #963019;
+}
+
+#user-posts .message, #user-list .message {
+    width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1199px) {
+    #user-list p {
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+@media only screen  and (min-width : 1200px) {
+    main {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    #user-list p {
+        display: inline-block;
+        width: 70%;
+    }
+}
